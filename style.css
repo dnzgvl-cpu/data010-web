@@ -1,0 +1,187 @@
+p.ozel-yazi, .ozel-yazi {
+  color: #fffae4; /* Sarımsı bir renk */
+  font-size: 30px;
+  font-family: 'Arial', poppins;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+body {
+  font-family: 'Arial', arial;
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(0, 0, 255);
+
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Genel tema ayarları */
+body {
+  background: linear-gradient(135deg, #0a0f1f, #1a2238);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Kart veya makale kutuları için */
+.card, .article-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 20px;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 15px rgba(0,180,216,0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover, .article-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(0,180,216,0.3);
+}
+
+/* Butonlar */
+.btn {
+  background: #00b4d8;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #0096c7;
+  transform: scale(1.05);
+}
+
+/* Başlıklar */
+h1, h2, h3, h4 {
+  color: #00b4d8;
+  font-weight: 600;
+}
+
+/* Linkler */
+a {
+  color: #00b4d8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* İçerik kenar boşlukları */
+.container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+/* Arka plan aynı kalsın */
+body {
+  background: linear-gradient(135deg, #0a0f1f, #1a2238);
+  color: #ffffff; /* Tam beyaz */
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Başlıklar daha belirgin */
+h1, h2, h3, h4 {
+  color: #4cc9f0; /* Parlak mavi ton */
+  font-weight: 600;
+}
+
+/* Paragraflar ve genel yazılar */
+p, li, span, div {
+  color: #f1f1f1 !important; /* Parlak beyaz */
+}
+
+/* Kartlar (makaleler) */
+.card, .article-box {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 20px;
+  color: #ffffff; /* İçerik tamamen beyaz */
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 0 15px rgba(0,180,216,0.1);
+}
+
+/* Linkler */
+a {
+  color: #00b4d8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #48cae4;
+  text-decoration: underline;
+}
+
+/* Butonlar */
+.btn {
+  background: #00b4d8;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #0096c7;
+  transform: scale(1.05);
+}
+
+
+/* 🌌 Koyu (lacivert) bölüm */
+.section-dark {
+  background: linear-gradient(135deg, #0a0f1f, #1a2238);
+  color: #ffffff;
+  padding: 60px 20px;
+}
+
+.section-dark h1, 
+.section-dark h2, 
+.section-dark h3, 
+.section-dark h4 {
+  color: #4cc9f0;
+}
+
+.section-dark p, 
+.section-dark li, 
+.section-dark span {
+  color: #f1f1f1;
+}
+
+/* ☀️ Açık (beyaz) bölüm */
+.section-light {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 60px 20px;
+}
+
+.section-light h1, 
+.section-light h2, 
+.section-light h3, 
+.section-light h4 {
+  color: #0a0f1f;
+}
+
+.section-light p, 
+.section-light li, 
+.section-light span {
+  color: #222222;
+}
+
+/* Bölümler arasında yumuşak geçiş */
+.section-dark, .section-light {
+  transition: background 0.5s ease, color 0.5s ease;
+}
